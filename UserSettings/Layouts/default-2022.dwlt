@@ -17,9 +17,9 @@ MonoBehaviour:
     x: 0
     y: 43
     width: 1920
-    height: 989
+    height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Git for Unity
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,7 +45,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1920
-    height: 989
+    height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 969
+    y: 977
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -115,11 +115,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1920
-    height: 939
+    height: 947
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 617
+  controlID: 107
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -141,11 +141,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1218
-    height: 939
+    height: 947
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 558
+  controlID: 46
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -167,11 +167,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1218
-    height: 557
+    height: 562
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 559
+  controlID: 47
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -191,12 +191,12 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 300
-    height: 557
+    height: 562
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -217,14 +217,14 @@ MonoBehaviour:
     x: 300
     y: 0
     width: 918
-    height: 557
+    height: 562
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
+  - {fileID: 14}
   - {fileID: 13}
-  - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 2
 --- !u!114 &10
@@ -243,15 +243,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 557
+    y: 562
     width: 1218
-    height: 382
+    height: 385
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
   - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -272,15 +272,3228 @@ MonoBehaviour:
     x: 1218
     y: 0
     width: 702
-    height: 939
-  m_MinSize: {x: 276, y: 71}
+    height: 947
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 18}
-  m_Selected: 0
+  - {fileID: 19}
+  - {fileID: 12}
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffb9ccd5681bd841ae77e9e5571f770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Git for Unity
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1218
+    y: 73
+    width: 701
+    height: 926
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
+  changeTab: 2
+  activeTab: 2
+  initProjectView:
+    hasCompletedInitialCheck: 0
+    isUserDataPresent: 0
+    lastCheckUserChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 0
+    disableCreate: 0
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 
+      cacheType: 0
+    currentBranch:
+      name: 
+      tracking: 
+    currentRemote:
+      name: 
+      url: 
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches: []
+    remoteBranches: []
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    commitBody: 
+    commitMessage: 
+    currentBranch: '[unknown]'
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries: []
+    changedFilesText: No changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastLocksChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries:
+    - commitID: 6ac753dadeb8a5e36516e03306964c309809aa5f
+      mergeA: 
+      mergeB: 
+      authorName: RSidwell12
+      authorEmail: rsidwell2@huskers.unl.edu
+      commitEmail: rsidwell2@huskers.unl.edu
+      commitName: RSidwell12
+      summary: Environment Changes
+      description: Changes to the Environment and Increased Enemy numbers
+      timeString: 2025-01-26T15:19:57.000-06:00
+      commitTimeString: 2025-01-26T15:19:57.000-06:00
+      changes:
+      - path: Assets\Materials\GroundTexture.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\GroundTexture.mat
+        projectPath: Assets\Materials\GroundTexture.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\GroundTexture.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\GroundTexture.mat.meta
+        projectPath: Assets\Materials\GroundTexture.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\GroundTexture.png
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\GroundTexture.png
+        projectPath: Assets\Materials\GroundTexture.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\GroundTexture.png.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\GroundTexture.png.meta
+        projectPath: Assets\Materials\GroundTexture.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Materials.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Materials.meta
+        projectPath: Assets\Materials\Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Materials\GroundTexture 1.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Materials\GroundTexture
+          1.mat
+        projectPath: Assets\Materials\Materials\GroundTexture 1.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Materials\GroundTexture 1.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Materials\GroundTexture
+          1.mat.meta
+        projectPath: Assets\Materials\Materials\GroundTexture 1.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Materials\WallTexture.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Materials\WallTexture.mat
+        projectPath: Assets\Materials\Materials\WallTexture.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Materials\WallTexture.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Materials\WallTexture.mat.meta
+        projectPath: Assets\Materials\Materials\WallTexture.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\WallTexture.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\WallTexture.mat
+        projectPath: Assets\Materials\WallTexture.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\WallTexture.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\WallTexture.mat.meta
+        projectPath: Assets\Materials\WallTexture.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\WallTexture.png
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\WallTexture.png
+        projectPath: Assets\Materials\WallTexture.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\WallTexture.png.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\WallTexture.png.meta
+        projectPath: Assets\Materials\WallTexture.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Minigame.unity
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.unity
+        projectPath: Assets\Scenes\Minigame.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\Minigame\NavMesh-Ground.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame\NavMesh-Ground.asset
+        projectPath: Assets\Scenes\Minigame\NavMesh-Ground.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 6cc14ecdf884179917e8629ba7c09d7d595d378d
+      mergeA: 
+      mergeB: 
+      authorName: ellennamation
+      authorEmail: 89547633+pinkpanda4545@users.noreply.github.com
+      commitEmail: 89547633+pinkpanda4545@users.noreply.github.com
+      commitName: ellennamation
+      summary: Switched versions
+      description: .56 to .55
+      timeString: 2025-01-24T16:02:38.000-06:00
+      commitTimeString: 2025-01-24T16:02:38.000-06:00
+      changes:
+      - path: .vsconfig
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\.vsconfig
+        projectPath: .vsconfig
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 9887703fa28eee84385801ee8e8a75b24440e4b2
+      mergeA: 
+      mergeB: 
+      authorName: ellennamation
+      authorEmail: ellennamation@gmail.com
+      commitEmail: ellennamation@gmail.com
+      commitName: ellennamation
+      summary: Pacer material
+      description: Altered pacer material
+      timeString: 2025-01-24T12:42:09.000-06:00
+      commitTimeString: 2025-01-24T12:42:09.000-06:00
+      changes:
+      - path: Assets\Materials\Pacer.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Pacer.mat
+        projectPath: Assets\Materials\Pacer.mat
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\Minigame.unity
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.unity
+        projectPath: Assets\Scenes\Minigame.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 7e86b23851607de5ed801944a0fe1179f1e000c4
+      mergeA: 
+      mergeB: 
+      authorName: ellennamation
+      authorEmail: ellennamation@gmail.com
+      commitEmail: ellennamation@gmail.com
+      commitName: ellennamation
+      summary: Added a Pacer
+      description: Blue pacer added and arena size increased.
+      timeString: 2025-01-24T12:39:22.000-06:00
+      commitTimeString: 2025-01-24T12:39:22.000-06:00
+      changes:
+      - path: Assets\Materials\Pacer.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Pacer.mat
+        projectPath: Assets\Materials\Pacer.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Pacer.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Pacer.mat.meta
+        projectPath: Assets\Materials\Pacer.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Minigame.unity
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.unity
+        projectPath: Assets\Scenes\Minigame.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\Minigame\NavMesh-Ground.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame\NavMesh-Ground.asset
+        projectPath: Assets\Scenes\Minigame\NavMesh-Ground.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Pacer.cs
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\Pacer.cs
+        projectPath: Assets\Scripts\Pacer.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Pacer.cs.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\Pacer.cs.meta
+        projectPath: Assets\Scripts\Pacer.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: bd7c1f4a81a8104fca0385e7e54d9671d1c0c8ad
+      mergeA: 
+      mergeB: 
+      authorName: ellennamation
+      authorEmail: ellennamation@gmail.com
+      commitEmail: ellennamation@gmail.com
+      commitName: ellennamation
+      summary: Rollaball Tutorial
+      description: Finished tutorial
+      timeString: 2025-01-24T12:20:02.000-06:00
+      commitTimeString: 2025-01-24T12:20:02.000-06:00
+      changes:
+      - path: Assets\Inputs.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Inputs.meta
+        projectPath: Assets\Inputs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Inputs\InputActions.inputactions
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Inputs\InputActions.inputactions
+        projectPath: Assets\Inputs\InputActions.inputactions
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Inputs\InputActions.inputactions.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Inputs\InputActions.inputactions.meta
+        projectPath: Assets\Inputs\InputActions.inputactions.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials.meta
+        projectPath: Assets\Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Background.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Background.mat
+        projectPath: Assets\Materials\Background.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Background.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Background.mat.meta
+        projectPath: Assets\Materials\Background.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\DynamicObstacle.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\DynamicObstacle.mat
+        projectPath: Assets\Materials\DynamicObstacle.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\DynamicObstacle.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\DynamicObstacle.mat.meta
+        projectPath: Assets\Materials\DynamicObstacle.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Enemy.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Enemy.mat
+        projectPath: Assets\Materials\Enemy.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Enemy.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Enemy.mat.meta
+        projectPath: Assets\Materials\Enemy.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\PIckUp.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\PIckUp.mat
+        projectPath: Assets\Materials\PIckUp.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\PIckUp.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\PIckUp.mat.meta
+        projectPath: Assets\Materials\PIckUp.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Player.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Player.mat
+        projectPath: Assets\Materials\Player.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Player.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Player.mat.meta
+        projectPath: Assets\Materials\Player.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Walls.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Walls.mat
+        projectPath: Assets\Materials\Walls.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Walls.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Walls.mat.meta
+        projectPath: Assets\Materials\Walls.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Prefabs.meta
+        projectPath: Assets\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\DynamicBox.prefab
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Prefabs\DynamicBox.prefab
+        projectPath: Assets\Prefabs\DynamicBox.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\DynamicBox.prefab.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Prefabs\DynamicBox.prefab.meta
+        projectPath: Assets\Prefabs\DynamicBox.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\PickUp.prefab
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Prefabs\PickUp.prefab
+        projectPath: Assets\Prefabs\PickUp.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\PickUp.prefab.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Prefabs\PickUp.prefab.meta
+        projectPath: Assets\Prefabs\PickUp.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Readme.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Readme.asset
+        projectPath: Assets\Readme.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Readme.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Readme.asset.meta
+        projectPath: Assets\Readme.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Minigame.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.meta
+        projectPath: Assets\Scenes\Minigame.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Minigame.unity
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.unity
+        projectPath: Assets\Scenes\Minigame.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Minigame.unity.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.unity.meta
+        projectPath: Assets\Scenes\Minigame.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Minigame\NavMesh-Ground.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame\NavMesh-Ground.asset
+        projectPath: Assets\Scenes\Minigame\NavMesh-Ground.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Minigame\NavMesh-Ground.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame\NavMesh-Ground.asset.meta
+        projectPath: Assets\Scenes\Minigame\NavMesh-Ground.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\SampleScene.unity.meta
+        projectPath: Assets\Scenes\SampleScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts.meta
+        projectPath: Assets\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\CameraController.cs
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\CameraController.cs
+        projectPath: Assets\Scripts\CameraController.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\CameraController.cs.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\CameraController.cs.meta
+        projectPath: Assets\Scripts\CameraController.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\EnemyMovement.cs
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\EnemyMovement.cs
+        projectPath: Assets\Scripts\EnemyMovement.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\EnemyMovement.cs.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\EnemyMovement.cs.meta
+        projectPath: Assets\Scripts\EnemyMovement.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerController.cs
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\PlayerController.cs
+        projectPath: Assets\Scripts\PlayerController.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerController.cs.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\PlayerController.cs.meta
+        projectPath: Assets\Scripts\PlayerController.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Rotator.cs
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\Rotator.cs
+        projectPath: Assets\Scripts\Rotator.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Rotator.cs.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\Rotator.cs.meta
+        projectPath: Assets\Scripts\Rotator.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings.meta
+        projectPath: Assets\Settings.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\SampleSceneProfile.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\SampleSceneProfile.asset
+        projectPath: Assets\Settings\SampleSceneProfile.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\SampleSceneProfile.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\SampleSceneProfile.asset.meta
+        projectPath: Assets\Settings\SampleSceneProfile.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-Balanced-Renderer.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Balanced-Renderer.asset
+        projectPath: Assets\Settings\URP-Balanced-Renderer.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-Balanced-Renderer.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Balanced-Renderer.asset.meta
+        projectPath: Assets\Settings\URP-Balanced-Renderer.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-Balanced.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Balanced.asset
+        projectPath: Assets\Settings\URP-Balanced.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-Balanced.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Balanced.asset.meta
+        projectPath: Assets\Settings\URP-Balanced.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-HighFidelity-Renderer.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-HighFidelity-Renderer.asset
+        projectPath: Assets\Settings\URP-HighFidelity-Renderer.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-HighFidelity-Renderer.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-HighFidelity-Renderer.asset.meta
+        projectPath: Assets\Settings\URP-HighFidelity-Renderer.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-HighFidelity.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-HighFidelity.asset
+        projectPath: Assets\Settings\URP-HighFidelity.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-HighFidelity.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-HighFidelity.asset.meta
+        projectPath: Assets\Settings\URP-HighFidelity.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-Performant-Renderer.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Performant-Renderer.asset
+        projectPath: Assets\Settings\URP-Performant-Renderer.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-Performant-Renderer.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Performant-Renderer.asset.meta
+        projectPath: Assets\Settings\URP-Performant-Renderer.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-Performant.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Performant.asset
+        projectPath: Assets\Settings\URP-Performant.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-Performant.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Performant.asset.meta
+        projectPath: Assets\Settings\URP-Performant.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro.meta
+        projectPath: Assets\TextMesh Pro.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Documentation.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Documentation.meta
+        projectPath: Assets\TextMesh Pro\Documentation.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+        projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+        projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Fonts.meta
+        projectPath: Assets\TextMesh Pro\Fonts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Fonts\LiberationSans - OFL.txt
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Fonts\LiberationSans - OFL.txt.meta
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Fonts\LiberationSans.ttf
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Fonts\LiberationSans.ttf.meta
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources.meta
+        projectPath: Assets\TextMesh Pro\Resources.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Fonts & Materials.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Drop Shadow.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Fonts & Materials\LiberationSans SDF - Drop Shadow.mat
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Drop Shadow.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Drop Shadow.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Fonts & Materials\LiberationSans SDF - Drop Shadow.mat.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Drop Shadow.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Fallback.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Fallback.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Fallback.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Fallback.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Outline.mat
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Fonts & Materials\LiberationSans SDF - Outline.mat
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Outline.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Outline.mat.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Fonts & Materials\LiberationSans SDF - Outline.mat.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Outline.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Fonts & Materials\LiberationSans SDF.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\LineBreaking Following Characters.txt
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\LineBreaking Following Characters.txt.meta
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\LineBreaking Leading Characters.txt
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\LineBreaking Leading Characters.txt.meta
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Sprite Assets.meta
+        projectPath: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Sprite Assets\EmojiOne.asset
+        projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Style Sheets.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Style Sheets.meta
+        projectPath: Assets\TextMesh Pro\Resources\Style Sheets.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Style Sheets\Default Style Sheet.asset
+        projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\TMP Settings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\TMP Settings.asset
+        projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Resources\TMP Settings.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders.meta
+        projectPath: Assets\TextMesh Pro\Shaders.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_Bitmap-Mobile.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_Bitmap.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_Bitmap.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF Overlay.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF Overlay.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF SSD.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF SSD.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Mobile Masking.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Mobile SSD.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Mobile.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Mobile.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Surface.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF-Surface.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_SDF.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_Sprite.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMP_Sprite.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro.cginc
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMPro.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMPro.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMPro_Mobile.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMPro_Mobile.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMPro_Properties.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMPro_Properties.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMPro_Surface.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Shaders\TMPro_Surface.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Sprites.meta
+        projectPath: Assets\TextMesh Pro\Sprites.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Sprites\EmojiOne Attribution.txt
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Sprites\EmojiOne Attribution.txt.meta
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.json
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Sprites\EmojiOne.json
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Sprites\EmojiOne.json.meta
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.png
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Sprites\EmojiOne.png
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+          Pro\Sprites\EmojiOne.png.meta
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo.meta
+        projectPath: Assets\TutorialInfo.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Icons.meta
+        projectPath: Assets\TutorialInfo\Icons.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\URP.png
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Icons\URP.png
+        projectPath: Assets\TutorialInfo\Icons\URP.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\URP.png.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Icons\URP.png.meta
+        projectPath: Assets\TutorialInfo\Icons\URP.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Layout.wlt
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Layout.wlt
+        projectPath: Assets\TutorialInfo\Layout.wlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Layout.wlt.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Layout.wlt.meta
+        projectPath: Assets\TutorialInfo\Layout.wlt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts.meta
+        projectPath: Assets\TutorialInfo\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts\Editor.meta
+        projectPath: Assets\TutorialInfo\Scripts\Editor.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Readme.cs
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts\Readme.cs
+        projectPath: Assets\TutorialInfo\Scripts\Readme.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts\Readme.cs.meta
+        projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UniversalRenderPipelineGlobalSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\UniversalRenderPipelineGlobalSettings.asset
+        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\BurstAotSettings_StandaloneWindows.json
+        projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\CommonBurstAotSettings.json
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\CommonBurstAotSettings.json
+        projectPath: ProjectSettings\CommonBurstAotSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\MemorySettings.asset
+        projectPath: ProjectSettings\MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\PackageManagerSettings.asset
+        projectPath: ProjectSettings\PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\SceneTemplateSettings.json
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\SceneTemplateSettings.json
+        projectPath: ProjectSettings\SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ShaderGraphSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ShaderGraphSettings.asset
+        projectPath: ProjectSettings\ShaderGraphSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\URPProjectSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\URPProjectSettings.asset
+        projectPath: ProjectSettings\URPProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\VersionControlSettings.asset
+        projectPath: ProjectSettings\VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.index
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Search.index
+        projectPath: UserSettings\Search.index
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: b8197a2c792289e0a010b9849be638a5818a6f3e
+      mergeA: 
+      mergeB: 
+      authorName: ellennamation
+      authorEmail: ellennamation@gmail.com
+      commitEmail: ellennamation@gmail.com
+      commitName: ellennamation
+      summary: Initial commit
+      description: 
+      timeString: 2025-01-24T12:19:22.000-06:00
+      commitTimeString: 2025-01-24T12:19:22.000-06:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2025-01-27T15:34:36.322-06:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 6ac753dadeb8a5e36516e03306964c309809aa5f
+        mergeA: 
+        mergeB: 
+        authorName: RSidwell12
+        authorEmail: rsidwell2@huskers.unl.edu
+        commitEmail: rsidwell2@huskers.unl.edu
+        commitName: RSidwell12
+        summary: Environment Changes
+        description: Changes to the Environment and Increased Enemy numbers
+        timeString: 2025-01-26T15:19:57.000-06:00
+        commitTimeString: 2025-01-26T15:19:57.000-06:00
+        changes:
+        - path: Assets\Materials\GroundTexture.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\GroundTexture.mat
+          projectPath: Assets\Materials\GroundTexture.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\GroundTexture.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\GroundTexture.mat.meta
+          projectPath: Assets\Materials\GroundTexture.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\GroundTexture.png
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\GroundTexture.png
+          projectPath: Assets\Materials\GroundTexture.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\GroundTexture.png.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\GroundTexture.png.meta
+          projectPath: Assets\Materials\GroundTexture.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Materials.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Materials.meta
+          projectPath: Assets\Materials\Materials.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Materials\GroundTexture 1.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Materials\GroundTexture
+            1.mat
+          projectPath: Assets\Materials\Materials\GroundTexture 1.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Materials\GroundTexture 1.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Materials\GroundTexture
+            1.mat.meta
+          projectPath: Assets\Materials\Materials\GroundTexture 1.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Materials\WallTexture.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Materials\WallTexture.mat
+          projectPath: Assets\Materials\Materials\WallTexture.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Materials\WallTexture.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Materials\WallTexture.mat.meta
+          projectPath: Assets\Materials\Materials\WallTexture.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\WallTexture.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\WallTexture.mat
+          projectPath: Assets\Materials\WallTexture.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\WallTexture.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\WallTexture.mat.meta
+          projectPath: Assets\Materials\WallTexture.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\WallTexture.png
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\WallTexture.png
+          projectPath: Assets\Materials\WallTexture.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\WallTexture.png.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\WallTexture.png.meta
+          projectPath: Assets\Materials\WallTexture.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Minigame.unity
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.unity
+          projectPath: Assets\Scenes\Minigame.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\Minigame\NavMesh-Ground.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame\NavMesh-Ground.asset
+          projectPath: Assets\Scenes\Minigame\NavMesh-Ground.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 6cc14ecdf884179917e8629ba7c09d7d595d378d
+        mergeA: 
+        mergeB: 
+        authorName: ellennamation
+        authorEmail: 89547633+pinkpanda4545@users.noreply.github.com
+        commitEmail: 89547633+pinkpanda4545@users.noreply.github.com
+        commitName: ellennamation
+        summary: Switched versions
+        description: .56 to .55
+        timeString: 2025-01-24T16:02:38.000-06:00
+        commitTimeString: 2025-01-24T16:02:38.000-06:00
+        changes:
+        - path: .vsconfig
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\.vsconfig
+          projectPath: .vsconfig
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 9887703fa28eee84385801ee8e8a75b24440e4b2
+        mergeA: 
+        mergeB: 
+        authorName: ellennamation
+        authorEmail: ellennamation@gmail.com
+        commitEmail: ellennamation@gmail.com
+        commitName: ellennamation
+        summary: Pacer material
+        description: Altered pacer material
+        timeString: 2025-01-24T12:42:09.000-06:00
+        commitTimeString: 2025-01-24T12:42:09.000-06:00
+        changes:
+        - path: Assets\Materials\Pacer.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Pacer.mat
+          projectPath: Assets\Materials\Pacer.mat
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\Minigame.unity
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.unity
+          projectPath: Assets\Scenes\Minigame.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 7e86b23851607de5ed801944a0fe1179f1e000c4
+        mergeA: 
+        mergeB: 
+        authorName: ellennamation
+        authorEmail: ellennamation@gmail.com
+        commitEmail: ellennamation@gmail.com
+        commitName: ellennamation
+        summary: Added a Pacer
+        description: Blue pacer added and arena size increased.
+        timeString: 2025-01-24T12:39:22.000-06:00
+        commitTimeString: 2025-01-24T12:39:22.000-06:00
+        changes:
+        - path: Assets\Materials\Pacer.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Pacer.mat
+          projectPath: Assets\Materials\Pacer.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Pacer.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Pacer.mat.meta
+          projectPath: Assets\Materials\Pacer.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Minigame.unity
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.unity
+          projectPath: Assets\Scenes\Minigame.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\Minigame\NavMesh-Ground.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame\NavMesh-Ground.asset
+          projectPath: Assets\Scenes\Minigame\NavMesh-Ground.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Pacer.cs
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\Pacer.cs
+          projectPath: Assets\Scripts\Pacer.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Pacer.cs.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\Pacer.cs.meta
+          projectPath: Assets\Scripts\Pacer.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: bd7c1f4a81a8104fca0385e7e54d9671d1c0c8ad
+        mergeA: 
+        mergeB: 
+        authorName: ellennamation
+        authorEmail: ellennamation@gmail.com
+        commitEmail: ellennamation@gmail.com
+        commitName: ellennamation
+        summary: Rollaball Tutorial
+        description: Finished tutorial
+        timeString: 2025-01-24T12:20:02.000-06:00
+        commitTimeString: 2025-01-24T12:20:02.000-06:00
+        changes:
+        - path: Assets\Inputs.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Inputs.meta
+          projectPath: Assets\Inputs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Inputs\InputActions.inputactions
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Inputs\InputActions.inputactions
+          projectPath: Assets\Inputs\InputActions.inputactions
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Inputs\InputActions.inputactions.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Inputs\InputActions.inputactions.meta
+          projectPath: Assets\Inputs\InputActions.inputactions.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials.meta
+          projectPath: Assets\Materials.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Background.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Background.mat
+          projectPath: Assets\Materials\Background.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Background.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Background.mat.meta
+          projectPath: Assets\Materials\Background.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\DynamicObstacle.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\DynamicObstacle.mat
+          projectPath: Assets\Materials\DynamicObstacle.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\DynamicObstacle.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\DynamicObstacle.mat.meta
+          projectPath: Assets\Materials\DynamicObstacle.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Enemy.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Enemy.mat
+          projectPath: Assets\Materials\Enemy.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Enemy.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Enemy.mat.meta
+          projectPath: Assets\Materials\Enemy.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\PIckUp.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\PIckUp.mat
+          projectPath: Assets\Materials\PIckUp.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\PIckUp.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\PIckUp.mat.meta
+          projectPath: Assets\Materials\PIckUp.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Player.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Player.mat
+          projectPath: Assets\Materials\Player.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Player.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Player.mat.meta
+          projectPath: Assets\Materials\Player.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Walls.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Walls.mat
+          projectPath: Assets\Materials\Walls.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Walls.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Materials\Walls.mat.meta
+          projectPath: Assets\Materials\Walls.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Prefabs.meta
+          projectPath: Assets\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\DynamicBox.prefab
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Prefabs\DynamicBox.prefab
+          projectPath: Assets\Prefabs\DynamicBox.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\DynamicBox.prefab.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Prefabs\DynamicBox.prefab.meta
+          projectPath: Assets\Prefabs\DynamicBox.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\PickUp.prefab
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Prefabs\PickUp.prefab
+          projectPath: Assets\Prefabs\PickUp.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\PickUp.prefab.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Prefabs\PickUp.prefab.meta
+          projectPath: Assets\Prefabs\PickUp.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Readme.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Readme.asset
+          projectPath: Assets\Readme.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Readme.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Readme.asset.meta
+          projectPath: Assets\Readme.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Minigame.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.meta
+          projectPath: Assets\Scenes\Minigame.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Minigame.unity
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.unity
+          projectPath: Assets\Scenes\Minigame.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Minigame.unity.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame.unity.meta
+          projectPath: Assets\Scenes\Minigame.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Minigame\NavMesh-Ground.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame\NavMesh-Ground.asset
+          projectPath: Assets\Scenes\Minigame\NavMesh-Ground.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Minigame\NavMesh-Ground.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\Minigame\NavMesh-Ground.asset.meta
+          projectPath: Assets\Scenes\Minigame\NavMesh-Ground.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scenes\SampleScene.unity.meta
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts.meta
+          projectPath: Assets\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\CameraController.cs
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\CameraController.cs
+          projectPath: Assets\Scripts\CameraController.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\CameraController.cs.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\CameraController.cs.meta
+          projectPath: Assets\Scripts\CameraController.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\EnemyMovement.cs
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\EnemyMovement.cs
+          projectPath: Assets\Scripts\EnemyMovement.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\EnemyMovement.cs.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\EnemyMovement.cs.meta
+          projectPath: Assets\Scripts\EnemyMovement.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerController.cs
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\PlayerController.cs
+          projectPath: Assets\Scripts\PlayerController.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerController.cs.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\PlayerController.cs.meta
+          projectPath: Assets\Scripts\PlayerController.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Rotator.cs
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\Rotator.cs
+          projectPath: Assets\Scripts\Rotator.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Rotator.cs.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Scripts\Rotator.cs.meta
+          projectPath: Assets\Scripts\Rotator.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings.meta
+          projectPath: Assets\Settings.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\SampleSceneProfile.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\SampleSceneProfile.asset
+          projectPath: Assets\Settings\SampleSceneProfile.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\SampleSceneProfile.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\SampleSceneProfile.asset.meta
+          projectPath: Assets\Settings\SampleSceneProfile.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-Balanced-Renderer.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Balanced-Renderer.asset
+          projectPath: Assets\Settings\URP-Balanced-Renderer.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-Balanced-Renderer.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Balanced-Renderer.asset.meta
+          projectPath: Assets\Settings\URP-Balanced-Renderer.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-Balanced.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Balanced.asset
+          projectPath: Assets\Settings\URP-Balanced.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-Balanced.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Balanced.asset.meta
+          projectPath: Assets\Settings\URP-Balanced.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-HighFidelity-Renderer.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-HighFidelity-Renderer.asset
+          projectPath: Assets\Settings\URP-HighFidelity-Renderer.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-HighFidelity-Renderer.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-HighFidelity-Renderer.asset.meta
+          projectPath: Assets\Settings\URP-HighFidelity-Renderer.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-HighFidelity.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-HighFidelity.asset
+          projectPath: Assets\Settings\URP-HighFidelity.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-HighFidelity.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-HighFidelity.asset.meta
+          projectPath: Assets\Settings\URP-HighFidelity.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-Performant-Renderer.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Performant-Renderer.asset
+          projectPath: Assets\Settings\URP-Performant-Renderer.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-Performant-Renderer.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Performant-Renderer.asset.meta
+          projectPath: Assets\Settings\URP-Performant-Renderer.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-Performant.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Performant.asset
+          projectPath: Assets\Settings\URP-Performant.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-Performant.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\Settings\URP-Performant.asset.meta
+          projectPath: Assets\Settings\URP-Performant.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro.meta
+          projectPath: Assets\TextMesh Pro.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Documentation.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Documentation.meta
+          projectPath: Assets\TextMesh Pro\Documentation.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+          projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide
+            2016.pdf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+          projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide
+            2016.pdf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Fonts.meta
+          projectPath: Assets\TextMesh Pro\Fonts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Fonts\LiberationSans - OFL.txt
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Fonts\LiberationSans - OFL.txt.meta
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Fonts\LiberationSans.ttf
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Fonts\LiberationSans.ttf.meta
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources.meta
+          projectPath: Assets\TextMesh Pro\Resources.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Fonts & Materials.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Drop Shadow.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Fonts & Materials\LiberationSans SDF - Drop Shadow.mat
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Drop Shadow.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Drop Shadow.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Fonts & Materials\LiberationSans SDF - Drop Shadow.mat.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Drop Shadow.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Fallback.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Fallback.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Fallback.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Fallback.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Outline.mat
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Fonts & Materials\LiberationSans SDF - Outline.mat
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Outline.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Outline.mat.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Fonts & Materials\LiberationSans SDF - Outline.mat.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Outline.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Fonts & Materials\LiberationSans SDF.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\LineBreaking Following Characters.txt
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\LineBreaking Following Characters.txt.meta
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\LineBreaking Leading Characters.txt
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\LineBreaking Leading Characters.txt.meta
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Sprite Assets.meta
+          projectPath: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Sprite Assets\EmojiOne.asset
+          projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Style Sheets.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Style Sheets.meta
+          projectPath: Assets\TextMesh Pro\Resources\Style Sheets.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Style Sheets\Default Style Sheet.asset
+          projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\TMP Settings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\TMP Settings.asset
+          projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Resources\TMP Settings.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders.meta
+          projectPath: Assets\TextMesh Pro\Shaders.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_Bitmap-Mobile.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_Bitmap.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_Bitmap.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF Overlay.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF Overlay.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF SSD.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF SSD.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Mobile Masking.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Mobile SSD.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Mobile.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Mobile.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Surface.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF-Surface.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_SDF.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_Sprite.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMP_Sprite.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro.cginc
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMPro.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMPro.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMPro_Mobile.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMPro_Mobile.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMPro_Properties.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMPro_Properties.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMPro_Surface.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Shaders\TMPro_Surface.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Sprites.meta
+          projectPath: Assets\TextMesh Pro\Sprites.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Sprites\EmojiOne Attribution.txt
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Sprites\EmojiOne Attribution.txt.meta
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.json
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Sprites\EmojiOne.json
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Sprites\EmojiOne.json.meta
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.png
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Sprites\EmojiOne.png
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TextMesh
+            Pro\Sprites\EmojiOne.png.meta
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo.meta
+          projectPath: Assets\TutorialInfo.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Icons.meta
+          projectPath: Assets\TutorialInfo\Icons.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons\URP.png
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Icons\URP.png
+          projectPath: Assets\TutorialInfo\Icons\URP.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons\URP.png.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Icons\URP.png.meta
+          projectPath: Assets\TutorialInfo\Icons\URP.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Layout.wlt
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Layout.wlt
+          projectPath: Assets\TutorialInfo\Layout.wlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Layout.wlt.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Layout.wlt.meta
+          projectPath: Assets\TutorialInfo\Layout.wlt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts.meta
+          projectPath: Assets\TutorialInfo\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Editor.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts\Editor.meta
+          projectPath: Assets\TutorialInfo\Scripts\Editor.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Readme.cs
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts\Readme.cs
+          projectPath: Assets\TutorialInfo\Scripts\Readme.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\TutorialInfo\Scripts\Readme.cs.meta
+          projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UniversalRenderPipelineGlobalSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\UniversalRenderPipelineGlobalSettings.asset
+          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\BurstAotSettings_StandaloneWindows.json
+          projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\CommonBurstAotSettings.json
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\CommonBurstAotSettings.json
+          projectPath: ProjectSettings\CommonBurstAotSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\SceneTemplateSettings.json
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\SceneTemplateSettings.json
+          projectPath: ProjectSettings\SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ShaderGraphSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\ShaderGraphSettings.asset
+          projectPath: ProjectSettings\ShaderGraphSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\URPProjectSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\URPProjectSettings.asset
+          projectPath: ProjectSettings\URPProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.index
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Search.index
+          projectPath: UserSettings\Search.index
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: b8197a2c792289e0a010b9849be638a5818a6f3e
+        mergeA: 
+        mergeB: 
+        authorName: ellennamation
+        authorEmail: ellennamation@gmail.com
+        commitEmail: ellennamation@gmail.com
+        commitName: ellennamation
+        summary: Initial commit
+        description: 
+        timeString: 2025-01-24T12:19:22.000-06:00
+        commitTimeString: 2025-01-24T12:19:22.000-06:00
+        changes:
+        - path: .gitattributes
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: 
+      gitLfsPath: 
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+      installSettingsHidden: 0
+    hasRemote: 0
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    newRepositoryRemoteUrl: 
+    repositoryRemoteName: 
+    repositoryRemoteUrl: 
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: 
+      gitEmail: 
+      newGitName: 
+      newGitEmail: 
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 
+        cacheType: 0
+      configSettingsHidden: 0
+    repositorySettingsHidden: 0
+    generalSettingsHidden: 0
+    debugSettingsHidden: 0
+    uiSceneSettingsHidden: 0
+    uiProjectSettingsHidden: 0
+  locksView:
+    currentRemoteHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastLocksChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lockedFiles: []
+    gitStatusEntries: []
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: master
+  currentRemoteUrl: https://github.com/pinkpanda4545/ellenna-rollaball.git
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 0
+  isTrackingRemoteBranch: 1
+  currentBranchContent:
+    m_Text: master
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/pinkpanda4545/ellenna-rollaball.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 
+    cacheType: 0
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 
+    cacheType: 0
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 0
+  appManagerProgressMessage: 
+  primaryConnectionUsername: 
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -304,7 +3517,7 @@ MonoBehaviour:
     x: 300
     y: 73
     width: 916
-    height: 536
+    height: 541
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -321,7 +3534,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 916, y: 515}
+  m_TargetSize: {x: 916, y: 520}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -338,8 +3551,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -458
     m_HBaseRangeMax: 458
-    m_VBaseRangeMin: -257.5
-    m_VBaseRangeMax: 257.5
+    m_VBaseRangeMin: -260
+    m_VBaseRangeMax: 260
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -358,9 +3571,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 916
-      height: 515
+      height: 520
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 458, y: 257.5}
+    m_Translation: {x: 458, y: 260}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -368,19 +3581,19 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -458
-      y: -257.5
+      y: -260
       width: 916
-      height: 515
+      height: 520
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 916, y: 536}
+  m_LastWindowPixelSize: {x: 916, y: 541}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
   m_showToolbar: 1
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -415,7 +3628,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -439,7 +3652,7 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 299
-    height: 536
+    height: 541
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -452,10 +3665,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 48fefdff
-      m_LastClickedID: -131512
-      m_ExpandedIDs: 2e49ffffa289ffff60a9ffff1cf2ffffd4f2ffff78f4ffff30f5ffffd4f6ffff82f8ffff28fbffff6076000096760000e6760000
+      scrollPos: {x: 0, y: 120}
+      m_SelectedIDs: 8c700000
+      m_LastClickedID: 28812
+      m_ExpandedIDs: d0f8ffff946f0000de700000027100003a710000ae710000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -479,7 +3692,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -503,7 +3716,7 @@ MonoBehaviour:
     x: 300
     y: 73
     width: 916
-    height: 536
+    height: 541
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -836,9 +4049,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.7009604, y: 10.19129, z: 1.1990743}
+    m_Target: {x: 10.980463, y: 6.4465685, z: -5.762431}
     speed: 2
-    m_Value: {x: -3.7009604, y: 10.19129, z: 1.1990743}
+    m_Value: {x: 10.980463, y: 6.4465685, z: -5.762431}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -884,13 +4097,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Target: {x: 0.2962974, y: -0.3103992, z: 0.102483414, w: 0.897418}
     speed: 2
-    m_Value: {x: 0.7071068, y: -0.000000004005521, z: 0.0000000012230374, w: 0.7071069}
+    m_Value: {x: 0.29645056, y: -0.30905247, z: 0.10203877, w: 0.89788187}
   m_Size:
-    m_Target: 42.630417
+    m_Target: 12.446372
     speed: 2
-    m_Value: 40.79466
+    m_Value: 11.910404
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -915,7 +4128,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -937,9 +4150,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 630
+    y: 635
     width: 1217
-    height: 361
+    height: 364
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -961,7 +4174,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -969,16 +4182,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Rain Sidwell\OneDrive\Desktop\Virtual Worlds Assignments\ellenna-rollaball
+  m_LastProjectPath: C:\Users\edivingnzzo2\Documents\GitHub\ellenna-rollaball
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 78710000
-    m_LastClickedID: 29048
-    m_ExpandedIDs: 000000006c71000000ca9a3bffffff7f
+    m_SelectedIDs: ae730000
+    m_LastClickedID: 29614
+    m_ExpandedIDs: 00000000ae73000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1006,7 +4219,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006c71000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000ae730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1033,7 +4246,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1062,7 +4275,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1097,7 +4310,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1121,7 +4334,7 @@ MonoBehaviour:
     x: 1218
     y: 73
     width: 701
-    height: 918
+    height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
