@@ -39,35 +39,17 @@ public class EnemyMovement : MonoBehaviour
             healthbarRect.localScale = newSize;
 
             //position x
-            Vector3 newPosition = healthbarRect.position;
-            newPosition.x = health * 0.2f; 
-            healthbarRect.position = newPosition; 
+            Vector3 newPosition = healthbarRect.localPosition;
+            newPosition.x = newPosition.x + 0.2f;
+            healthbarRect.localPosition = newPosition;
 
             print("hit!");
 
             if (health == 0)
             {
                 //change color
-                Destroy(this.gameObject);
+                this.gameObject.SetActive(false);
             }
         }
     }
-
-    //private void OnCollisionEnter(Collision other)
-    //{
-    //    if (other.gameObject.CompareTag("projectile"))
-    //    {
-    //        Destroy(other.gameObject);
-
-    //        //adjust healthbar
-    //        health -= 1;
-    //        print("hit!");
-
-    //        if (health == 0)
-    //        {
-    //            //change color
-    //            print("Enemy dead");
-    //        }
-    //    }
-    //}
 }
